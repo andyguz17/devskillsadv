@@ -1,0 +1,25 @@
+header {
+  align-items: center;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+
+  .link-active {
+    color: #007ab3;
+  }
+
+  .logout-button {
+    background-color: transparent;
+    border: none;
+    color: #666666;
+    cursor: pointer;
+  }
+
+  .link-item {
+    text-decoration: none;
+    color: #666666;
+  }
+}

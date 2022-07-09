@@ -1,0 +1,21 @@
+table {
+  display: block;
+  left: 50%;
+  margin-top: 1rem;
+  position: absolute;
+  transform: translateX(-50%);
+
+  td,
+  th {
+    padding: 8px;
+    background-color: #f5f5f5;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #007ab3;
+    color: white;
+  }
+}

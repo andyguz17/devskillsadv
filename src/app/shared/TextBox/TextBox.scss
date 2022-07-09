@@ -1,0 +1,30 @@
+.text-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  align-items: flex-start;
+
+  input {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    width: 250px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: #a60016;
+  }
+
+  .required:after {
+    content: '*';
+    margin-left: 0.1rem;
+    color: #a60016;
+    font-weight: bold;
+  }
+}
