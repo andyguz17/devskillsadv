@@ -74,8 +74,8 @@ const Home = () => {
       />
 
       <div className="form-buttons">
-        <button onClick={resetForm}>Reset</button>
         <button type="submit">Save</button>
+        <button onClick={resetForm}>Reset</button>
       </div>
 
       {error && <p>{error.message}</p>}
