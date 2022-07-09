@@ -8,9 +8,9 @@ This project was built with vite
 
 - vite: To build the application, also it was used to set some of the environment variables.
 
--jwt-decode: The servers sends back useful information such as the name that can be reused in the client, so it was used to decode the incoming token (casually the name in the token is the same as the username, but this is not always the case).
+- jwt-decode: The servers sends back useful information such as the name that can be reused in the client, so it was used to decode the incoming token (casually the name in the token is the same as the username, but this is not always the case).
 
--react-idle-timer: To detect if the user is idle or not, also set a timer to get when the users gets inactive for more than 2 minutes.
+- react-idle-timer: To detect if the user is idle or not, also set a timer to get when the users gets inactive for more than 2 minutes.
 
 ## Running the client
 
